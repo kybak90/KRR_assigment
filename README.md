@@ -1,7 +1,4 @@
 
-# Note
-**This package is intended solely for educational purposes and covers part of the material from *R Programming With Workflow Design* (ISBN: 9791158087449).**
-
 # Kernel Ridge Regression (KRR) Example
 
 A simple example using `krr_fit()` and `predict()`  
@@ -73,3 +70,4 @@ ggplot() +
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
+<img src="README_files/figure-gfm/unnamed-chunk-1-1.png" style="display: block; margin: auto;" />
