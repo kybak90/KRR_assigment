@@ -1,17 +1,17 @@
-
-# Note
-**This package is intended solely for educational purposes and covers part of the material from *R Programming With Workflow Design* (ISBN: 9791158087449).**
+---
+output: github_document
+---
 
 # Kernel Ridge Regression (KRR) Example
 
 A simple example using `krr_fit()` and `predict()`  
 to visualize the fitted Kernel Ridge Regression curve.
 
-------------------------------------------------------------------------
+---
 
 ## Example
 
-``` r
+```{r, message = FALSE, warning = FALSE, fig.align = "center", fig.width = 7, fig.height = 5}
 # 필요한 패키지
 library(ggplot2)
 
@@ -72,4 +72,3 @@ ggplot() +
   theme_minimal(base_size = 13) +
   theme(plot.title = element_text(hjust = 0.5))
 ```
-
